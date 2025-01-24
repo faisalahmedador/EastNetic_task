@@ -25,7 +25,7 @@ export function generatePeople(count: number) {
     // Generate a unique potatoes count (from 1..99)
     let potatoes
     do {
-      potatoes = Math.floor(Math.random() * 99) + 1
+      potatoes = Math.floor(Math.random() * count) + 1
     } while (usedPotatoCounts.has(potatoes))
     usedPotatoCounts.add(potatoes)
 

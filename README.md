@@ -2,17 +2,33 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
+# People Table Component
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+This project is a dynamic and interactive Vue.js table to display and manage user data. It features drag-and-drop row reordering, checkbox selection, a timer for task completion, and unit tests to ensure robust functionality.
 
-## Type Support for `.vue` Imports in TS
+---
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## Features
 
-## Customize configuration
+- **Dynamic Row Generation**: Rows are created based on the `count` prop.
+- **Drag and Drop**: Easily rearrange rows.
+- **Checkbox Selection**: Enable or disable specific rows for interaction.
+- **Timer**: A countdown timer starts when rows are generated, stopping upon task completion.
+- **Success Notification**: Alerts the user when rows are arranged in descending order of the `potatoes` column.
+- **Unit Tests**: Validates key functionalities, including drag-and-drop and checkbox logic.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+---
+
+## Getting Started
+
+### Prerequisites
+
+Ensure you have the following installed:
+- **Node.js** (v14 or higher)
+- **npm** or **yarn**
+- **Vue CLI** (optional, for local development)
+
+---
 
 ## Project Setup
 
